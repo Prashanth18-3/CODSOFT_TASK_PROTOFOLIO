@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 200px;
+    border-radius: 80%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-left:235px;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #b4d1d3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: #007BFF;
+    color: white;
+    padding: 40px 0;
+    text-align:center;
+    width:50000px;
+  }
+  
+  section {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 1rem;
+  }
+  .about,  .contact {
+    padding: 40px 0;
+    color: rgb(10, 6, 14);
+  }
+  
+  .projects {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 1.5rem
+  }
+
+  .project-card h3 {
+    margin: 1rem;
+  }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #2c8ec7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(199, 15, 15, 0.1);
+  }
+  
+  h2 {
+    margin-bottom:1rem;
+    color:black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
